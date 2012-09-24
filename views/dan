@@ -1,0 +1,5 @@
+<ul>
+	<% ['cats', 'dogs'].ech do |pet| $>
+		<li> <%= "#{pet} are great" &></li>
+	<% end %>
+</ul>
